@@ -6,6 +6,7 @@ import { Abordagem } from "@/components/Abordagem";
 import { MarqueeBand } from "@/components/MarqueeBand";
 import { Diferenciais } from "@/components/Diferenciais";
 import { FAQ } from "@/components/FAQ";
+import { Contato } from "@/components/Contato";
 import { Localizacao } from "@/components/Localizacao";
 import { CTAFinal } from "@/components/CTAFinal";
 import { Footer } from "@/components/Footer";
@@ -23,6 +24,7 @@ export default function Home() {
         <MarqueeBand />
         <Diferenciais />
         <FAQ />
+        <Contato />
         <Localizacao />
         <CTAFinal />
       </main>

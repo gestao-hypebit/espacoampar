@@ -49,6 +49,7 @@ export function Footer() {
               <li><a href="#especialidades" className="hover:text-white">Especialidades</a></li>
               <li><a href="#acolhimento" className="hover:text-white">Acolhimento</a></li>
               <li><a href="#faq" className="hover:text-white">Dúvidas</a></li>
+              <li><a href="#contato" className="hover:text-white">Contato</a></li>
               <li><a href="#localizacao" className="hover:text-white">Localização</a></li>
             </ul>
           </div>

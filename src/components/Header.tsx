@@ -11,7 +11,8 @@ const links = [
   { n: "02", href: "#especialidades", label: "Especialidades" },
   { n: "03", href: "#acolhimento", label: "Acolhimento" },
   { n: "04", href: "#faq", label: "Dúvidas" },
-  { n: "05", href: "#localizacao", label: "Localização" },
+  { n: "05", href: "#contato", label: "Contato" },
+  { n: "06", href: "#localizacao", label: "Localização" },
 ];
 
 export function Header() {
