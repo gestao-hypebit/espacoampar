@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { site } from "@/lib/site";
 import { InstagramIcon } from "./icons";
@@ -51,19 +52,33 @@ export function Diferenciais() {
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -4 }}
-              className="group flex h-full flex-col justify-between border border-forest/15 bg-cream p-10 transition-colors hover:border-forest/30"
+              className="group flex h-full flex-col justify-between overflow-hidden border border-forest/15 bg-cream transition-colors hover:border-forest/30"
             >
               <div>
-                <InstagramIcon className="h-8 w-8 text-terracotta" />
-                <h3 className="mt-6 font-display text-2xl font-medium text-forest">
-                  Acompanhe os bastidores
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-ink/70">
-                  No Instagram, a equipe compartilha conteúdo sobre saúde
-                  emocional e os bastidores do espaço.
-                </p>
+                <div className="relative h-48 w-full overflow-hidden">
+                  <Image
+                    src="/cuidado-maos.png"
+                    alt=""
+                    fill
+                    sizes="(min-width: 1024px) 420px, 100vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-forest/10" />
+                  <span className="absolute left-5 top-5 flex h-9 w-9 items-center justify-center rounded-full bg-cream text-terracotta">
+                    <InstagramIcon className="h-4 w-4" />
+                  </span>
+                </div>
+                <div className="px-10 pt-8">
+                  <h3 className="font-display text-2xl font-medium text-forest">
+                    Acompanhe os bastidores
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-ink/70">
+                    No Instagram, a equipe compartilha conteúdo sobre saúde
+                    emocional e os bastidores do espaço.
+                  </p>
+                </div>
               </div>
-              <span className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-terracotta">
+              <span className="mb-10 mt-8 inline-flex items-center gap-2 px-10 text-sm font-medium text-terracotta">
                 {site.instagramHandle}
                 <span aria-hidden="true" className="transition-transform group-hover:translate-x-1">
                   →

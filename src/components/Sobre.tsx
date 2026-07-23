@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Reveal, StaggerGroup, StaggerItem } from "./Reveal";
 
 const values = [
@@ -41,20 +42,32 @@ export function Sobre() {
           </p>
         </Reveal>
 
-        <StaggerGroup className="flex flex-col gap-8 lg:pt-2">
-          {values.map((value) => (
-            <StaggerItem key={value.title} className="flex gap-5 border-l-2 border-terracotta/40 pl-6">
-              <div>
-                <h3 className="font-display text-lg font-medium text-forest">
-                  {value.title}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-ink/70">
-                  {value.text}
-                </p>
-              </div>
-            </StaggerItem>
-          ))}
-        </StaggerGroup>
+        <div className="flex flex-col gap-10 lg:pt-2">
+          <Reveal delay={0.1} className="relative aspect-[4/3] overflow-hidden">
+            <Image
+              src="/reflexao.png"
+              alt=""
+              fill
+              sizes="(min-width: 1024px) 480px, 100vw"
+              className="object-cover"
+            />
+          </Reveal>
+
+          <StaggerGroup className="flex flex-col gap-8">
+            {values.map((value) => (
+              <StaggerItem key={value.title} className="flex gap-5 border-l-2 border-terracotta/40 pl-6">
+                <div>
+                  <h3 className="font-display text-lg font-medium text-forest">
+                    {value.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/70">
+                    {value.text}
+                  </p>
+                </div>
+              </StaggerItem>
+            ))}
+          </StaggerGroup>
+        </div>
       </div>
     </section>
   );
