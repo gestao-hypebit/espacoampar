@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Sobre } from "@/components/Sobre";
+import { Equipe } from "@/components/Equipe";
 import { PhotoBreak } from "@/components/PhotoBreak";
 import { Especialidades } from "@/components/Especialidades";
 import { Abordagem } from "@/components/Abordagem";
@@ -20,6 +21,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Sobre />
+        <Equipe />
         <PhotoBreak />
         <Especialidades />
         <Abordagem />

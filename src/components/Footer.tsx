@@ -46,6 +46,7 @@ export function Footer() {
             <p className="font-medium text-white">Navegação</p>
             <ul className="mt-3 flex flex-col gap-2">
               <li><a href="#sobre" className="hover:text-white">Sobre</a></li>
+              <li><a href="#equipe" className="hover:text-white">Equipe</a></li>
               <li><a href="#especialidades" className="hover:text-white">Especialidades</a></li>
               <li><a href="#acolhimento" className="hover:text-white">Acolhimento</a></li>
               <li><a href="#faq" className="hover:text-white">Dúvidas</a></li>

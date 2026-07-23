@@ -8,11 +8,12 @@ import { InstagramIcon, WhatsAppIcon } from "./icons";
 
 const links = [
   { n: "01", href: "#sobre", label: "Sobre" },
-  { n: "02", href: "#especialidades", label: "Especialidades" },
-  { n: "03", href: "#acolhimento", label: "Acolhimento" },
-  { n: "04", href: "#faq", label: "Dúvidas" },
-  { n: "05", href: "#contato", label: "Contato" },
-  { n: "06", href: "#localizacao", label: "Localização" },
+  { n: "02", href: "#equipe", label: "Equipe" },
+  { n: "03", href: "#especialidades", label: "Especialidades" },
+  { n: "04", href: "#acolhimento", label: "Acolhimento" },
+  { n: "05", href: "#faq", label: "Dúvidas" },
+  { n: "06", href: "#contato", label: "Contato" },
+  { n: "07", href: "#localizacao", label: "Localização" },
 ];
 
 export function Header() {
