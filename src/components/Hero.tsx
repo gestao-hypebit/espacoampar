@@ -55,7 +55,10 @@ export function Hero() {
         initial="hidden"
         animate="show"
       >
-        <motion.span variants={item} className="eyebrow text-terracotta">
+        <motion.span
+          variants={item}
+          className="eyebrow text-sm font-bold! tracking-[0.22em] text-terracotta-light"
+        >
           {site.tagline}
         </motion.span>
 

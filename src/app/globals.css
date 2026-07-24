@@ -5,6 +5,7 @@
   --forest-light: #1c3a22;
   --terracotta: #994b1d;
   --terracotta-dark: #7a3b15;
+  --terracotta-light: #e8a878;
   --cream: #faf6ef;
   --sage: #dbe3d5;
   --ink: #182b1a;
@@ -15,6 +16,7 @@
   --color-forest-light: var(--forest-light);
   --color-terracotta: var(--terracotta);
   --color-terracotta-dark: var(--terracotta-dark);
+  --color-terracotta-light: var(--terracotta-light);
   --color-cream: var(--cream);
   --color-sage: var(--sage);
   --color-ink: var(--ink);
