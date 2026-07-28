@@ -25,7 +25,7 @@ const team: Member[] = [
     specialty: "Terapias neurocerebrais · TCC, EMDR e Brainspotting",
     bio: "Especializada em terapias neurocerebrais, trabalhando com traumas complexos, TEPT, borderline, bipolaridade e TDAH, entre outros. Atende adultos, casais e adolescentes.",
     instagram: "psigiovannaprates",
-    whatsapp: waHref("5565996174664"),
+    whatsapp: waHref("5565996174661"),
   },
   {
     photo: "/equipe/jennifer-mezzomo.jpg",
