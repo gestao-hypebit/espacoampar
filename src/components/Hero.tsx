@@ -73,8 +73,8 @@ export function Hero() {
 
         <div className="mt-10 grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
           <motion.p variants={item} className="max-w-xl text-lg leading-relaxed text-white/70">
-            O Espaço Ampar reúne uma equipe de psicólogas dedicadas ao cuidado
-            emocional em Cuiabá — atendimento individual, de casal e um lugar
+            O Espaço Ampar reúne uma equipe multidisciplinar dedicada à saúde
+            mental em Cuiabá — atendimento individual, de casal e um lugar
             para se conhecer melhor, sem pressa e sem julgamento.
           </motion.p>
 

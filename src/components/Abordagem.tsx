@@ -19,7 +19,7 @@ const steps = [
   {
     n: "03",
     title: "Acompanhamento contínuo",
-    text: "Sessões regulares, no seu ritmo, com a mesma psicóloga do início ao fim do processo.",
+    text: "Sessões regulares, no seu ritmo, com o mesmo profissional do início ao fim do processo.",
   },
 ];
 

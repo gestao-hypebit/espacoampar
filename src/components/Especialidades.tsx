@@ -34,6 +34,11 @@ const areas = [
     title: "Adolescentes e jovens adultos",
     text: "Suporte para as transições de identidade, autonomia e relações dessa fase.",
   },
+  {
+    n: "07",
+    title: "Psicopedagogia e psicomotricidade",
+    text: "Acompanhamento de dificuldades de aprendizagem, desenvolvimento e habilidades psicomotoras em crianças e adolescentes.",
+  },
 ];
 
 export function Especialidades() {
@@ -43,7 +48,7 @@ export function Especialidades() {
         <Reveal className="max-w-xl">
           <span className="eyebrow text-terracotta">Áreas de atuação</span>
           <h2 className="mt-4 font-display text-3xl font-medium leading-tight text-forest sm:text-5xl">
-            Cuidado psicológico para diferentes momentos da vida.
+            Cuidado em saúde mental para diferentes momentos da vida.
           </h2>
         </Reveal>
 

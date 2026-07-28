@@ -8,7 +8,7 @@ function buildWhatsappHref(message: string) {
 
 export const site = {
   name: "Espaço Ampar",
-  tagline: "Psicologia e cuidado emocional em Cuiabá",
+  tagline: "Saúde mental e cuidado emocional em Cuiabá",
   address: {
     street: "Rua das Papoulas, 143",
     neighborhood: "Jardim Cuiabá",

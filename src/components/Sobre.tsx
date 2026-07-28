@@ -30,13 +30,13 @@ export function Sobre() {
         <Reveal>
           <span className="eyebrow text-terracotta">Sobre o espaço</span>
           <h2 className="mt-4 font-display text-3xl font-medium leading-tight text-forest sm:text-4xl lg:text-5xl">
-            Uma equipe de psicólogas, um só compromisso: cuidar bem de você.
+            Uma equipe multidisciplinar, um só compromisso: cuidar bem de você.
           </h2>
           <p className="mt-6 max-w-lg text-base leading-relaxed text-ink/75">
             O Espaço Ampar nasceu para ser um lugar de referência em saúde
             mental em Cuiabá — um ambiente pensado para receber, sem
             pressa e sem julgamento. Por trás dele, uma equipe de
-            psicólogas dedicadas a caminhar ao lado de quem busca se
+            profissionais dedicadas a caminhar ao lado de quem busca se
             entender melhor, atravessar um momento difícil ou apenas
             cuidar da própria saúde emocional com constância.
           </p>

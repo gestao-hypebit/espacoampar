@@ -16,17 +16,17 @@ const publicSans = Public_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Espaço Ampar | Psicologia em Cuiabá",
+  title: "Espaço Ampar | Saúde Mental em Cuiabá",
   description:
-    "Espaço Ampar — clínica de psicologia e bem-estar em Cuiabá. Equipe de psicólogas para terapia individual, de casal e cuidado emocional. Agende pelo WhatsApp.",
+    "Espaço Ampar — clínica de saúde mental e bem-estar em Cuiabá. Equipe multidisciplinar para terapia individual, de casal e cuidado emocional. Agende pelo WhatsApp.",
   icons: {
     icon: "/logo.jpg",
     apple: "/logo.jpg",
   },
   openGraph: {
-    title: "Espaço Ampar | Psicologia em Cuiabá",
+    title: "Espaço Ampar | Saúde Mental em Cuiabá",
     description:
-      "Clínica de psicologia e bem-estar em Cuiabá. Equipe de psicólogas para terapia individual, de casal e cuidado emocional.",
+      "Clínica de saúde mental e bem-estar em Cuiabá. Equipe multidisciplinar para terapia individual, de casal e cuidado emocional.",
     locale: "pt_BR",
     type: "website",
     images: ["/logo.jpg"],

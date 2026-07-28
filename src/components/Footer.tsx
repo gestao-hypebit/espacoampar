@@ -17,7 +17,7 @@ export function Footer() {
             className="rounded-xl"
           />
           <p className="mt-4 max-w-xs text-sm leading-relaxed">
-            Clínica de psicologia e bem-estar no Jardim Cuiabá, Cuiabá – MT.
+            Clínica de saúde mental e bem-estar no Jardim Cuiabá, Cuiabá – MT.
           </p>
           <div className="mt-5 flex gap-4">
             <a
