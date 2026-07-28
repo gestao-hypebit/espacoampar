@@ -16,6 +16,30 @@ const values = [
   },
 ];
 
+const galleryPhotos = [
+  {
+    src: "/fotosespaco/entrada.jpg",
+    alt: "Entrada do Espaço Ampar",
+    hero: true,
+  },
+  {
+    src: "/fotosespaco/sala-atendimento.jpg",
+    alt: "Sala de atendimento do Espaço Ampar",
+  },
+  {
+    src: "/fotosespaco/estante-leitura.jpg",
+    alt: "Cantinho de leitura do Espaço Ampar",
+  },
+  {
+    src: "/fotosespaco/detalhe-mesa.jpg",
+    alt: "Detalhe de decoração do Espaço Ampar",
+  },
+  {
+    src: "/fotosespaco/fachada.jpg",
+    alt: "Fachada do Espaço Ampar",
+  },
+];
+
 export function Sobre() {
   return (
     <section id="sobre" className="relative overflow-hidden bg-white py-28">
@@ -45,8 +69,8 @@ export function Sobre() {
         <div className="flex flex-col gap-10 lg:pt-2">
           <Reveal delay={0.1} className="relative aspect-[4/3] overflow-hidden">
             <Image
-              src="/reflexao.png"
-              alt=""
+              src="/fotosespaco/sala-espera.jpg"
+              alt="Sala de espera do Espaço Ampar"
               fill
               sizes="(min-width: 1024px) 480px, 100vw"
               className="object-cover"
@@ -69,6 +93,25 @@ export function Sobre() {
           </StaggerGroup>
         </div>
       </div>
+
+      <StaggerGroup className="relative mx-auto mt-16 grid max-w-6xl grid-cols-2 gap-4 px-6 sm:grid-cols-3 sm:gap-5 lg:mt-24 lg:px-8 [grid-auto-rows:170px] sm:[grid-auto-rows:200px] lg:[grid-auto-rows:240px]">
+        {galleryPhotos.map((photo) => (
+          <StaggerItem
+            key={photo.src}
+            className={`overflow-hidden ${photo.hero ? "row-span-2" : ""}`}
+          >
+            <div className="group relative h-full w-full overflow-hidden">
+              <Image
+                src={photo.src}
+                alt={photo.alt}
+                fill
+                sizes="(min-width: 1024px) 360px, (min-width: 640px) 33vw, 50vw"
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+              />
+            </div>
+          </StaggerItem>
+        ))}
+      </StaggerGroup>
     </section>
   );
 }

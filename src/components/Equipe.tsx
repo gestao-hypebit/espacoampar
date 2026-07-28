@@ -47,6 +47,7 @@ const team: Member[] = [
     name: "Maria Elisa",
     specialty: "TCC · Avaliação neuropsicológica",
     bio: "Atuação baseada na Terapia Cognitivo-Comportamental (TCC) e dedicação à Avaliação Neuropsicológica. Busca integrar evidências científicas à prática clínica, oferecendo avaliações e intervenções éticas, individualizadas e fundamentadas na ciência.",
+    whatsapp: waHref("556592334502"),
   },
   {
     photo: "/equipe/maria-paula.jpg",
