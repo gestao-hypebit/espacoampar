@@ -8,7 +8,7 @@ import { Reveal, StaggerGroup, StaggerItem } from "./Reveal";
 
 const points = [
   {
-    title: "Equipe só de psicólogas",
+    title: "Equipe multiprofissional",
     text: "Profissionais dedicadas exclusivamente ao cuidado em saúde mental, sob rigor ético e sigilo profissional.",
   },
   {
