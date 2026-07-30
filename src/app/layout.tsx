@@ -19,10 +19,6 @@ export const metadata: Metadata = {
   title: "Espaço Ampar | Saúde Mental em Cuiabá",
   description:
     "Espaço Ampar — clínica de saúde mental e bem-estar em Cuiabá. Equipe multidisciplinar para terapia individual, de casal e cuidado emocional. Agende pelo WhatsApp.",
-  icons: {
-    icon: "/logo.jpg",
-    apple: "/logo.jpg",
-  },
   openGraph: {
     title: "Espaço Ampar | Saúde Mental em Cuiabá",
     description:
